@@ -11,7 +11,7 @@
 
 第五步：输入命令ip addr并在输出的结果中找到有ip地址的那一“段”，划重点是整段一般为eth+数字的格式，然后记住这一段是eth几 
 
-第六步：写第一行代码创建一个变量来存储你的ip地址 例如：CURRENT_IP=$(ip addr | grep eth3 | grep inet | awk '{print $2}' |  cut -d "/" -f 1 )
+第六步：写第一行代码创建一个变量来存储你的ip地址 例如：`CURRENT_IP=$(ip addr | grep eth3 | grep inet | awk '{print $2}' |  cut -d "/" -f 1 )`
 
 注：CURRENT_IP为变量名可以自定义，规则和c语言相同 后面的$(一段)是获取ip地址的命令
 
@@ -24,20 +24,21 @@ ip addr 为获取ip信息  grep的意思就是定位到带有这个字符串的�
 第九步：打开浏览器注销你的校园网 按f12即打开开发者 点击Network(网络）勾选Preserve log （保存日志） 输入你的账号密码登录校园网
 
 第十步：点击日志里的login？callback 再点Headers 复制Request URL后面的那一段
-
+```
 http://10.1.99.100:801/eportal/portal/login?callback=dr1003&login_method=1&user_account=%2C0%2C你的账号%40unicom&user_password=你的密码&wlan_user_ip=你的ip地址&wlan_user_ipv6=&wlan_user_mac=000000000000&wlan_ac_ip=&wlan_ac_name=&jsVersion=4.1.3&terminal_type=1&lang=zh-cn&v=10107&lang=zh
-
+```
 你只需修改ip地址那一段（注意是在自己复制到的基础上修改！）将你的ip地址改为'$CURRENT_IP'
 
 第十一步：继续写第三行代码curl '你第十步得到的代码行'
 
 最后展示一下完整代码
-
+```
 CURRENT_IP=$(ip addr | grep eth3 | grep inet | awk '{print $2}' |  cut -d "/" -f 1 )
 
 #linux
 
-http://10.1.99.100:801/eportal/portal/login?callback=dr1003&login_method=1&user_account=%2C0%2C你的账号%40unicom&user_password=你的密码&wlan_user_ip=你的ip地址&wlan_user_ipv6=&wlan_user_mac=000000000000&wlan_ac_ip=&wlan_ac_name=&jsVersion=4.1.3&terminal_type=1&lang=zh-cn&v=10107&lang=zh‘
+curl'http://10.1.99.100:801/eportal/portal/login?callback=dr1003&login_method=1&user_account=%2C0%2C你的账号%40unicom&user_password=你的密码&wlan_user_ip=你的ip地址&wlan_user_ipv6=&wlan_user_mac=000000000000&wlan_ac_ip=&wlan_ac_name=&jsVersion=4.1.3&terminal_type=1&lang=zh-cn&v=10107&lang=zh'
+```
 
 建议自己编写，不要在我的基础上修改，否则问题颇多，然后将编码格式改为UTF-8 ,后缀改为.sh，名字自取，英文！！！
 
