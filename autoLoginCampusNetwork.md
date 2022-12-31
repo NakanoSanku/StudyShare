@@ -23,6 +23,7 @@ ip addr 为获取ip信息  grep的意思就是定位到带有这个字符串的�
 
 第九步：打开浏览器注销你的校园网 按f12即打开开发者 点击Network(网络）勾选Preserve log （保存日志） 输入你的账号密码登录校园网
 ![QQ截图20221231124712.png](https://s2.loli.net/2022/12/31/54rqcHNW2tiDLIx.png)
+
 第十步：点击日志里的login？callback 再点Headers 复制Request URL后面的那一段
 ```
 http://10.1.99.100:801/eportal/portal/login?callback=dr1003&login_method=1&user_account=%2C0%2C你的账号%40unicom&user_password=你的密码&wlan_user_ip=你的ip地址&wlan_user_ipv6=&wlan_user_mac=000000000000&wlan_ac_ip=&wlan_ac_name=&jsVersion=4.1.3&terminal_type=1&lang=zh-cn&v=10107&lang=zh
