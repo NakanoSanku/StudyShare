@@ -84,13 +84,22 @@ reboot
 
 ### 开启SSH
 如果上面没有刷入openwrt需要在TTL中备份bdata分区
-将bdata分区上传云端进行备份⚠️
+
+
 操作为[这位大佬35楼所说](https://www.right.com.cn/forum/thread-8268392-1-1.html)
+
 有兴趣可以自己研究uboot命令使用
+
+将bdata分区上传云端进行备份⚠️
+
 修改得到的bdata数据:[查看此教程第四步](https://post.m.smzdm.com/p/axzwv9w9/)
+
 计算初始密码:[这里输入sn码即可，路由器背面查看](https://miwifi.dev/ssh)
+
 使用官方刷机工具刷回官方
+
 ttl链接路由，刷入bdata分区或者openwrt提供的ssh刷入
+
 TTL参考教程[第5步](https://www.right.com.cn/FORUM/forum.php?mod=viewthread&tid=8255773&page=1#pid17537975)
 将修改后的bdata.bin放到tftpd64根目录下，tftp入路由器，擦除bdata分区，再写入
 ⚠️不同固件，分区不同地址，大小，🈲止复制粘贴
