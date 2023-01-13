@@ -14,9 +14,9 @@
      - [Tftpd64](https://bitbucket.org/phjounin/tftpd64/downloads/Tftpd64-4.64-setup.exe)
      - [HxD.exe](https://github.com/lemoeo/AX6S/raw/main/%E5%B7%A5%E5%85%B7/HxD.zip)
      - 小米路由官方固件
-	     [Redmi AX3000](https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/ra81/miwifi_ra81_firmware_2c953_1.0.62.bin)
-	     [Xiaomi CR8806](https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/cr8806/miwifi_cr8806_firmware_4622b_6.2.33.bin)
-	     [Xiaomi CR8809](https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/cr8809/miwifi_cr8809_firmware_46dab_6.2.136.bin)
+	     - [Redmi AX3000](https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/ra81/miwifi_ra81_firmware_2c953_1.0.62.bin)
+	     - [Xiaomi CR8806](https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/cr8806/miwifi_cr8806_firmware_4622b_6.2.33.bin)
+	     - [Xiaomi CR8809](https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/cr8809/miwifi_cr8809_firmware_46dab_6.2.136.bin)
 > CR8808 当前为6.2.18版本，可与8806/8809通刷
 ## 刷机方法
 ### 进入TTL
