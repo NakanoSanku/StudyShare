@@ -25,8 +25,11 @@
 - 使用sscom替换参考教程中的putty，无需设置端口，选择自动发送，延迟500ms，方便中断官方救砖进入TTL
 - TTL 接线 
 >  GND ->目标烧录模块的GND即电源负极
+>  
 >  TXD  ->目标烧录模块的RXD
+>  
 >  RXD  ->目标烧录模块的TXD
+>  
 >  ==vcc不要接！！！==
 >  ![18165ab4e2ff226.jpg](https://s2.loli.net/2023/01/13/nm5ZOoNFHKQT48L.jpg)
 - 进入TTL以后先修改环境变量，依次逐行输入以下命令
