@@ -20,7 +20,7 @@
 > CR8808 当前为6.2.18版本，可与8806/8809通刷
 ## 刷机方法
 ### 进入TTL
-教程参考链接:[恩山论坛大佬](https://www.right.com.cn/forum/forum.php?mod=viewthread&tid=8255711&highlight=ttl&mobile=2
+教程参考链接:[恩山论坛大佬](https://www.right.com.cn/forum/forum.php?mod=viewthread&tid=8255711&highlight=ttl&mobile=2)
 
 补充几点:
 - 使用sscom替换参考教程中的putty，无需设置端口，选择自动发送，延迟500ms，方便中断官方救砖进入TTL
