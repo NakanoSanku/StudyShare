@@ -53,7 +53,9 @@ saveenv
 挂在后台即可
 ### 刷入openwrt(可选)
 参考链接:[GitHub开源项目](https://github.com/hzyitc/openwrt-redmi-ax3000)
+
 	1. 下载固件 此项目release中下载ubi结尾文件到tftpd64根目录下
+	
 	2. 输入命令
 ```
 tftpboot openwrt-ipq50xx-generic-redmi_ax3000-squashfs-nand-factory.ubi
