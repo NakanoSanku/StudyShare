@@ -1,3 +1,11 @@
+## 2023.2.8更新
+目前官固+shellclash是最优解
+![youtube测速](https://s2.loli.net/2023/02/08/OXiMTc8h3gwVoDt.png)
+![speedtest.net测速](https://s2.loli.net/2023/02/08/O2Yyg4mZpl5PzGX.png)
+![中科大测速](https://s2.loli.net/2023/02/08/XbAvxtsOolEV1UF.png)
+以上均为个人测速结果，可能存在些许问题自辩
+后续会完善该教程(可能),视频教程估计得鸽了，回学校了
+
 ⚠️**不算是完全无脑教程，禁止复制粘贴刷写分区相关命令，刷机不备份，救🐔两行泪，再次警告不对任何刷砖行为负责，教程大多都应用前人经验**
 ## 工具准备
 - 硬件: 
