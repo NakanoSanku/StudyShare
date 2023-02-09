@@ -1,3 +1,22 @@
+## 2023.2.9更新
+忘记说了，如果telnet开启成功但是计算出来的密码错误，就在正常开机下ttl连接路由并键入回车，然后输入passwd即可修改密码
+
+还有别尝试安装adgurdhome，ram不够我已经尝试了，而且会导致时不时拨号不上(应该是)
+
+shellclash安装方法直接GitHub中搜索shellclash看作者的中文readme即可 [小白链接](https://github.com/juewuy/ShellClash/blob/master/README_CN.md)
+
+复制下面路由设备的命令在telnet或者ssh中粘贴即可，如果报错就换一条命令，推荐jsDelivrCDN源
+
+curl
+```
+export url='https://fastly.jsdelivr.net/gh/juewuy/ShellClash@master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
+```
+
+wget
+```
+export url='https://fastly.jsdelivr.net/gh/juewuy/ShellClash@master' && wget -q --no-check-certificate -O /tmp/install.sh $url/install.sh  && sh /tmp/install.sh && source /etc/profile &> /dev/null
+```
+
 ## 2023.2.8更新
 目前官固+shellclash是最优解
 ![youtube测速](https://s2.loli.net/2023/02/08/OXiMTc8h3gwVoDt.png)
