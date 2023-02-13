@@ -1,3 +1,13 @@
+# 更新
+```sh
+CURRENT_IP=$(ip addr | grep eth | grep inet | awk '{print $2}' |  cut -d "/" -f 1)
+
+#linux
+
+curl 'http://10.1.99.100:801/eportal/portal/login?callback=dr1003&login_method=1&user_account=你的账号@cmcc&user_password=你的密码&wlan_user_ip='$CURRENT_IP'&wlan_user_ipv6=&wlan_user_mac=000000000000&wlan_ac_ip=10.1.1.1&wlan_ac_name=&jsVersion=4.1.3&terminal_type=1&lang=zh-cn&v=2348&lang=zh'
+```
+只需替换你从网页抓取你的账号以及密码即可完成脚本编写，注意账号不完全等于你的学号！注意路由器部分固件可能不带curl！大坑！
+
 # -无锡学院校园网自动登录教程
 准备工作： 拥有一台能够ssh访问的路由器 有一台电脑
 
