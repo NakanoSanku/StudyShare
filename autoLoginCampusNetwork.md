@@ -1,4 +1,7 @@
 # 更新
+安卓一键登录 将eth更换为wlan0即可，需root权限执行sh脚本
+至于自动化自行解决，magisk 或者 tasker
+# 更新
 ```sh
 CURRENT_IP=$(ip addr | grep eth | grep inet | awk '{print $2}' |  cut -d "/" -f 1)
 
