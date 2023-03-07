@@ -1,3 +1,9 @@
+# 3.7更新
+```sh
+CURRENT_IP=$(ifconfig |grep inet |grep broadcast |awk '{print $2}')
+```
+将ip获取方式更改为ifconfig以便适应无root设备
+
 # 更新
 安卓一键登录 将eth更换为wlan0即可，需root权限执行sh脚本
 至于自动化自行解决，magisk 或者 tasker
