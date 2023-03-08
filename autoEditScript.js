@@ -46,7 +46,7 @@ function showLoginUI() {
   ui.saveAndroid.on("click", () => {
     if (save()) {
       let template =
-        "CURRENT_IP=$(ifconfig | grep inet | awk '{print $2}')\n" +
+        "CURRENT_IP=$(ifconfig | grep inet |grep Bcast | awk '{print $2}')\n" +
         "curl  'http://10.1.99.100:801/eportal/portal/login?callback=dr1003&login_method=1&user_account=,1," +
         user +
         operator +
