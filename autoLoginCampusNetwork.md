@@ -1,6 +1,7 @@
 # 3.9更新
-[下载此安装包](https://github.com/NakanoSanku/Study_2022/releases/download/%E5%98%BB%E4%B8%93%E6%A0%A1%E5%9B%AD%E7%BD%91%E9%80%9A%E7%94%A8%E7%99%BB%E5%BD%95%E8%84%9A%E6%9C%AC/default.7z)
-按照注释填写信息即可
+[下载此压缩包](https://github.com/NakanoSanku/Study_2022/releases/download/%E5%98%BB%E4%B8%93%E6%A0%A1%E5%9B%AD%E7%BD%91%E9%80%9A%E7%94%A8%E7%99%BB%E5%BD%95%E8%84%9A%E6%9C%AC/default.7z)
+
+解压后按照注释填写信息即可
 - Linux(macos,android,openwrt)用户修改sh脚本
   - Linux用户使用crontab添加计划任务即可
   - 例子 在命令行界面输入`crontab -e`,添加`*/20 * * * * sh auto.sh`,保存退出,重启`service crond restart`
