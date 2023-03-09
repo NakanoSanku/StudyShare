@@ -8,6 +8,7 @@
   3. 有兴趣可以了解一下[crontab机制](https://www.runoob.com/linux/linux-comm-crontab.html)
 - window用户修改cmd脚本
   1. win+r打开运行窗口 
+   
    ![运行窗口](https://s2.loli.net/2023/03/09/ij6dSJPgbxaX5zR.jpg)
    
   2. 输入`shell:startup`并回车
