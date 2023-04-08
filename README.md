@@ -5,5 +5,6 @@
 - [x] [ax3000/cr8808系列开启SSH](https://github.com/NakanoSanku/Study_2022/blob/master/ax3000/ax3000-cr880x-SSH.md )
 - [x] [SQL基础语法](https://github.com/NakanoSanku/Study_2022/blob/master/sql.md)
 - [ ] [c++基础语法](https://github.com/NakanoSanku/Study_2022/blob/master/C%2B%2B/C%2B%2B.md)
+- [x] [lzw算法实现](https://github.com/NakanoSanku/StudyShare/tree/master/lzw)
 - [ ] 数据结构
 - [ ] 算法
