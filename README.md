@@ -10,3 +10,4 @@
 - [x] [yoloV3_NCNN](https://github.com/NakanoSanku/StudyShare/tree/master/yolov3_ncnn.py)
 - [ ] 数据结构
 - [ ] 算法
+- [x] [shellclash小内存设备优化](/shellclash小内存设备优化.md)
